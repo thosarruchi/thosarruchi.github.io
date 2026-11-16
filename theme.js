@@ -16,7 +16,7 @@
     root.dataset.theme = theme;
     const target = theme === 'dark' ? 'light' : 'dark';
     const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.content = theme === 'dark' ? '#191c19' : '#ffffff';
+    if (meta) meta.content = theme === 'dark' ? '#161616' : '#fafafa';
     document.querySelectorAll('[data-theme-toggle]').forEach(button => {
       const label = `Switch to ${target} theme`;
       button.setAttribute('aria-label', label);
