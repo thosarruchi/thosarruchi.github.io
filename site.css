@@ -48,6 +48,7 @@
 .theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:8px 10px;border-radius:6px;cursor:pointer;font-size:12px;line-height:1.6;min-height:38px}
 .theme-toggle[hidden]{display:none}.theme-toggle:hover{background:var(--soft)}.theme-toggle svg{width:16px;height:16px}.theme-sun{display:none}
 :root[data-theme="dark"] .theme-moon{display:none}:root[data-theme="dark"] .theme-sun{display:block}
+:root[data-theme="dark"] .hero h1 span{background:linear-gradient(transparent 64%,#665820 64%,#665820 91%,transparent 91%)}
 :root[data-theme="dark"] .experience-company img,:root[data-theme="dark"] .project-label img,:root[data-theme="dark"] .case-logo{mix-blend-mode:normal;background:#fff;padding:5px 8px;border-radius:5px;box-sizing:content-box;max-width:calc(100% - 16px)}
 :root[data-theme="dark"] .sketch-board{background-color:#22271f;background-image:radial-gradient(#515744 .65px,transparent .65px);border-color:var(--line)}
 @media(max-width:1050px){.nav{gap:18px}.theme-toggle{padding:7px 8px}.project-label{flex-wrap:wrap;gap:5px 10px;min-height:43px;align-content:center}}
