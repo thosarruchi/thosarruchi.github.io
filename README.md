@@ -1,4 +1,4 @@
-# Ruchi Thosar — Technical Product Manager
+# Ruchi Thosar
 
 A static portfolio with product case studies, user journey diagrams, and a résumé.
 
