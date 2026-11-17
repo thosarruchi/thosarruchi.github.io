@@ -77,3 +77,21 @@
  .contact-page .page-intro{padding-top:48px}.contact-option{grid-template-columns:1fr 18px;gap:8px 14px;padding:23px 0}.contact-option>span{grid-column:1/-1;font-size:13px}.contact-option strong{font-size:22px;letter-spacing:-.6px}.contact-location{font-size:14px;line-height:1.7}
 }
 @media(prefers-reduced-motion:reduce){.project-art svg,.project-open{transition:none}}
+/* Keep the About story and skills in one balanced desktop composition. */
+.profile-page{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(48px,6vw,96px);align-items:start;padding-top:48px}
+.profile-bio{min-width:0}.profile-page .page-intro{padding:0 0 30px;max-width:none}
+.profile-page .page-lead{max-width:none}.profile-page .profile-story{max-width:none;margin-bottom:0}
+.portfolio-page .profile-page .skills{padding:0;min-width:0}
+.profile-page .skills .section-title{margin-bottom:26px}
+.portfolio-page .profile-page .skill-list{grid-template-columns:1fr;gap:22px}
+.profile-page .skill-list>div+div{border-top:1px solid var(--line);padding-top:22px}
+.profile-page .tools-note{line-height:1.7}
+@media(max-width:1000px){
+ .profile-page{grid-template-columns:1fr;gap:40px;padding-top:34px}
+ .portfolio-page .profile-page .skill-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 36px}
+ .profile-page .skill-list>div+div{border-top:0;padding-top:0}
+}
+@media(max-width:560px){
+ .profile-page{padding-top:28px;gap:34px}.profile-page .page-intro{padding-bottom:26px}
+ .portfolio-page .profile-page .skill-list{grid-template-columns:1fr;gap:24px}
+}
